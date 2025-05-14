@@ -1,0 +1,13 @@
+Process    Arrival    Burst    Completion   Turnaround   Waiting    Response
+P0         0          24       66            66           42         0       
+P1         3          17       71            68           51         2       
+P2         8          50       116           108          58         2       
+P3         15         10       57            42           32         6       
+
+Average Turnaround Time: 71.00
+Average Waiting Time: 45.75
+Average Response Time: 2.50
+System Throughput: 0.03448 processes per unit time
+
+Execution Timeline (- = idle, 0,1,2,3 = process number):
+0000011111222220000013333322222000001111132222200000133332222200001111122222---22222---22222---22222---22222---22222-

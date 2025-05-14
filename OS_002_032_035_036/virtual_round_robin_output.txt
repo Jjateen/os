@@ -1,0 +1,18 @@
+Performance Metrics:
+Process    Arrival    Burst    Completion   Turnaround   Waiting    Response
+-----------------------------------------------------------------------
+P0         0          24       66            66           42         0       
+P1         3          17       71            68           51         2       
+P2         8          50       116           108          58         2       
+P3         15         10       57            42           32         6       
+
+Summary Statistics:
+Average Turnaround Time: 71.00
+Average Waiting Time: 45.75
+Average Response Time: 2.50
+System Throughput: 0.03448 processes per unit time
+
+Execution Timeline (- = idle, character = process ID):
+Time:  0    5    10   15   20   25   30   35   40   45   50   55   60   65   70   75   80   85   90   95   100  105  110  115  
+       012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456
+CPU:    0000011111222220000013333322222000001111132222200000133332222200001111122222---22222---22222---22222---22222---22222-
